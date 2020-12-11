@@ -12,7 +12,7 @@ export const GifFavorites = ( {setKeywords, keywords} ) => {
             
                 <img src={ image } alt="Gif"></img>
                 <h4>Gif Searcher</h4>
-                <button onClick={addKeyword}>Agregar</button>
+                {/* <button onClick={addKeyword}>Agregar</button> */}
             
         </header>
     )
